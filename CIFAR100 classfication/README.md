@@ -32,8 +32,9 @@ some key arguments
  - `--beta`:beta of cutmix. `default=1`
    
   **test**
+  
   `python test.py --weight_path /path/weight_file/`
 
-## 
+## Code base
   The code is based on https://github.com/uoguelph-mlrg/Cutout 
 	 
