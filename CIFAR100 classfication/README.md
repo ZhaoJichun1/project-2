@@ -34,6 +34,13 @@ some key arguments
   **test**
   
   `python test.py --weight_path /path/weight_file/`
+  
+  **visualize**
+  ```
+  cd plot
+  tensorboard --logdir=./
+  ```
+  The loss and ACC curve have already existed in dir `plot`, you can cheak it directly
 
 ## Code base
   The code is based on https://github.com/uoguelph-mlrg/Cutout 
