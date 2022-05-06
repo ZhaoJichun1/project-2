@@ -1,7 +1,5 @@
 ---
-title: CIFAR 100 classification task
-renderNumberedHeading: true
-grammar_cjkRuby: true
+# CIFAR 100 classification task
 ---
 
 
