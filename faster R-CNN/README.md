@@ -22,10 +22,13 @@ This project is a Faster R-CNN implementation using VGG16 backbone
  - pytorch 1.11
  - CUDA 11.3
  - python 3.8
- - NVIDIA Geforce RTX3060
-  `#install packages`
-  `pip install -r requirements.txt --user`
-  ## 3. Train
+ - NVIDIA Geforce RTX3060  
+ ```
+ #install packages
+ pip install -r requirements.txt --user
+ ```
+  
+## 3. Train
   ### 3.1 Prepare data
   1.Download the training, validation, test data and VOCdevkit
 ``` javascript
