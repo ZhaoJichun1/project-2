@@ -50,9 +50,11 @@ Loss and mAP curve have already existed in dir `log`, you can cheak it directly
 ### 5.1 Evaluate mAP
 ```
 python test.py --weight_path /path/weight file/ --eval
+```
 ### 5.2 Detect your own image
 modify `PROJECT_PATH` in `yolov3_config_voc.py` as the path you want to save the detected image, run
 ```
 python test.py --visiual /path/to/image/
+```
 ## 6. Code base
 The code is based on https://github.com/Peterisfar/YOLOV3
